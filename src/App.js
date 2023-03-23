@@ -23,11 +23,15 @@ function App() {
           
         <p>IMMERSIVE<SplitText> EXPERIENCES</SplitText> THAT DELIVER</p>
         </div>
+        {/* write a funtion to change capital letters to small letters? */}
+
+
       </div>
       <div className='rest'>
        <img src={varman} className="varman" alt="logo" />
        <div className='t3xt'>
          <h1>THE LEADER IN INTERRACTIVE VR</h1>
+         <p></p>
          <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
         </div>
       </div>
