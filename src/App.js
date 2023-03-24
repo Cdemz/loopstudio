@@ -102,7 +102,10 @@ function App() {
 
       <div className='footer'>
         <div className='loop-side'>
-        <img src={logo} className="App-logo" alt="logo" />
+          <div className='ore'>
+          <img src={logo} className="App-logo" alt="logo" />  
+          </div>
+        
           
           <div className='ul-a'>
             <ul><a href='/'>About</a></ul>
