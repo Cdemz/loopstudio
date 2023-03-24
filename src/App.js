@@ -11,6 +11,7 @@ import space from './images/desktop/image-curiosity.jpg';
 import eyes from './images/desktop/image-fisheye.jpg';
 import facebook from './images/icon-facebook.svg';
 import ig from './images/icon-instagram.svg';
+import burger from './images/icon-close.svg';
 import pinterest from './images/icon-pinterest.svg';
 import twitter from './images/icon-twitter.svg';
 import './App.css';
@@ -29,11 +30,12 @@ function App() {
           <ul><a href='/'>Event</a></ul>
           <ul><a href='/'>Product</a></ul>
           <ul><a href='/'>Support</a></ul>
+          <img src={burger} className="meun-icon" alt="menu icon" />
         </div>  
 
         <div className='deliver'>
           
-        <p>IMMERSIVE<SplitText> EXPERIENCES</SplitText> THAT DELIVER</p>
+        <p>IMMERSIVE<SplitText>EXPERIENCES</SplitText> THAT DELIVER</p>
         </div>
 
       </div>
@@ -92,7 +94,7 @@ function App() {
             <img src={eyes} className="eyes" alt="space eyes" />
             <p id='4th'>MAKE IT FISHEYE</p>
           </div>
-        
+          <button className='b2tn'>SEE ALL</button>  
         </div>
         
 

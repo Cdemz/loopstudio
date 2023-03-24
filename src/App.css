@@ -7,6 +7,7 @@
 }
 .top-half {
   height: 70vh;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +20,9 @@
   color: white;
   overflow: hidden;
   width: auto;
+}
+.meun-icon {
+  display: none;
 }
 
 .header a {
@@ -124,6 +128,12 @@
   height: 6vh;
   width: 10vw;
 }
+@media screen and (min-width: 600px) {
+  .b2tn {
+    visibility: hidden;
+  }
+}
+
 .mid-main {
   height: 130vh;
   width: 85vw;
@@ -186,6 +196,33 @@
 .loop-side {
   border: 2px solid red;
   width: 20vw;
+  display: block;
+}
+.ul-a {
+  display: flex;
+}
+.loop-side img {
+  height: 4vh;
+  width: 9vw;
+  margin-top: 2vh;
+  margin-left: 3.2vw;
+}
+.loop-side a {
+  text-decoration: none;
+  color: white;
+  font-size: 2vh;
+  text-align: right;
+  /* margin-top: 2vh;
+  margin-left: 1vw; */
+  font-family: "Alata", sans-serif;
+}
+
+.loop-side a:hover {
+  border-bottom: 0.2vh solid wheat;
+  text-decoration: none;
+  color: white;
+  font-size: 2vh;
+  cursor: pointer;
 }
 
 .logo-side {
@@ -207,4 +244,93 @@
 .logo-img img:hover {
   border-bottom: 0.4vw solid rgb(251, 251, 252);
   cursor: pointer;
+}
+/* how to write css for smaller screen */
+@media only screen and (max-width: 600px) {
+  .top-half {
+    width: 100%;
+  }
+  .header {
+    background-color: black;
+  }
+  .header img {
+    height: 4vh;
+    width: 50vw;
+  }
+  .header a {
+    display: none;
+  }
+  .meun-icon {
+    display: block;
+  }
+  .deliver {
+    margin-top: 20vh;
+    height: 30vh;
+    width: 82vw;
+    position: relative;
+  }
+  .deliver p {
+    margin-left: 1vw;
+    font-size: 12vw;
+  }
+  .rest {
+    display: block;
+    border: 2px solid red;
+  }
+  .varman {
+    height: 26.2vh;
+  }
+  .t3xt {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 84vw;
+    height: 40vh;
+    border: 2px solid green;
+  }
+  .t3xt h1 {
+    font-size: 8vw;
+  }
+  .mid-section {
+    margin-top: 0px;
+    height: 180vh;
+    border: 2px solid blue;
+  }
+  .mid-section button {
+    display: none;
+  }
+  .mid-text h1 {
+    font-size: 6vw;
+  }
+  .mid-main {
+    height: 130vh;
+    width: 84vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid green;
+  }
+  .mid-main img {
+    margin: 0px 0px 2px 0px;
+    height: 19vh;
+    width: 84vw;
+    object-fit: cover;
+  }
+  .footer {
+    margin-top: 4px;
+  }
+  .b2tn {
+    margin-left: 45vw;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 1.5vh;
+    border-radius: 5px;
+    font-size: 2vh;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    height: 6vh;
+    width: 10vw;
+  }
+  .footer {
+    height: 15vh;
+  }
 }
