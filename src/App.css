@@ -272,18 +272,17 @@
     margin-left: 1vw;
     font-size: 12vw;
   }
-  .rest {
+  /* .rest {
     display: block;
-  }
+  } */
   .varman {
     height: 26.2vh;
   }
   .t3xt {
-    margin-top: 2vh;
+    margin-top: 30vh;
     margin-left: 0px;
     width: 84vw;
     height: 40vh;
-    border: 2px solid yellow;
   }
   .t3xt h1 {
     font-size: 8vw;
