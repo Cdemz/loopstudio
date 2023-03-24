@@ -32,6 +32,7 @@
   text-decoration: none;
   color: white;
   font-size: 1.5vw;
+  cursor: pointer;
 }
 
 .header img {
@@ -94,11 +95,9 @@
   margin-left: 5vw;
   height: 150vh;
   width: 85vw;
-  border: 2px solid red;
 }
 .mid-text {
   display: flex;
-  border: 2px solid green;
   align-items: center;
 }
 .mid-text h1 {
@@ -129,7 +128,6 @@
   height: 130vh;
   width: 85vw;
   display: flex;
-  border: 2px solid rgb(2, 12, 203);
   flex-wrap: wrap;
 }
 .mid-main img {
@@ -138,9 +136,75 @@
   height: 60vh;
   width: 18vw;
 }
+
+.mid-main img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 .ddeep img {
   margin-left: 0px;
 }
 .droad img {
   margin-left: 0px;
+}
+
+#cont {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* #cont:hover {
+  opacity: 0.2;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+#cont p:hover {
+  opacity: 2 !important;
+  cursor: pointer;
+  color: rgb(243, 1, 1) !important;
+} */
+
+#cont p {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 5vh;
+  width: 12vw;
+}
+
+.footer {
+  height: 15vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  justify-items: center;
+  display: flex;
+}
+
+.loop-side {
+  border: 2px solid red;
+  width: 20vw;
+}
+
+.logo-side {
+  float: right;
+  width: 21vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1vh;
+  margin-left: 55vw;
+}
+.logo-side img {
+  margin-right: 0.7vw;
+}
+.logo-img {
+  /* float: right; */
+  margin-left: 10.57vw;
+}
+
+.logo-img img:hover {
+  border-bottom: 0.4vw solid rgb(251, 251, 252);
+  cursor: pointer;
 }
