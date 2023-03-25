@@ -14,9 +14,7 @@ import ig from './images/icon-instagram.svg';
 import pinterest from './images/icon-pinterest.svg';
 import twitter from './images/icon-twitter.svg';
 import './App.css';
-import './script.js';
 import { SplitText } from '@cyriacbr/react-split-text';
-
 
 
 function App() {
