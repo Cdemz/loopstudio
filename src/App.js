@@ -11,10 +11,10 @@ import space from './images/desktop/image-curiosity.jpg';
 import eyes from './images/desktop/image-fisheye.jpg';
 import facebook from './images/icon-facebook.svg';
 import ig from './images/icon-instagram.svg';
-import burger from './images/icon-close.svg';
 import pinterest from './images/icon-pinterest.svg';
 import twitter from './images/icon-twitter.svg';
 import './App.css';
+import './script.js';
 import { SplitText } from '@cyriacbr/react-split-text';
 
 
@@ -23,15 +23,37 @@ function App() {
   return (
     <div className='body'>
       <div className='top-half' style={{ backgroundImage: `url(${background})` }}  >
-        <div className='header'>
+        <nav className='header'>
          <img src={logo} className="App-logo" alt="logo" />
-          <ul><a href='/'>About</a></ul>
-          <ul><a href='/'>Career</a></ul>
-          <ul><a href='/'>Event</a></ul>
-          <ul><a href='/'>Product</a></ul>
-          <ul><a href='/'>Support</a></ul>
-          <img src={burger} className="meun-icon" alt="menu icon" />
-        </div>  
+
+          <ul className='nav-meun'>
+            <li className='nav-item'>
+              <a className='nav-link' href='/'>About</a>
+            </li>
+            
+            <li className='nav-item'>
+              <a className='nav-link' href='/'>Career</a>
+            </li>
+            
+            <li className='nav-item'>
+              <a className='nav-link' href='/'>Event</a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='/'>Product</a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='/'>Support</a>
+            </li>
+            
+          </ul>
+
+          <div className='hamburger'>
+            <span className='bar'></span>
+            <span className='bar'></span>
+            <span className='bar'></span>
+          </div>
+   
+        </nav>  
 
         <div className='deliver'>
           
